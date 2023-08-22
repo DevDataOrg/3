@@ -57,13 +57,20 @@ body {
   width: 1170px;
 }
 
-p {
+.paragraf:not(:last-child) {
   margin: 0;
   margin-bottom: 40px;
   width: 872px;
 }
 
-h1 {
+.last-paragraf {
+  margin: 0;
+  margin-bottom: 40px;
+  width: 872px;
+}
+
+
+.head-h1 {
   margin: 0;
   margin-bottom: 40px;
 }
@@ -78,34 +85,46 @@ h1 {
   margin-bottom: 40px;
 }
 
-.title-article-grey-block p {
+.title-article-grey-block .paragraf {
   width: 692px;
   margin-bottom: 10px;
 }
 
-h2 {
+.head-h2 {
+  /* block-size: inline-block; */
+  margin: 0;
   margin-bottom: 10px;
 }
 
-h3 {
+.head-h3 {
+  margin: 0;
   margin-bottom: 10px;
 }
 
-ul {
+.list-ul {
+  margin: 0;
+  /* padding: 0; */
   padding-left: 15px;
 }
 
-li:not(:last-child) {
+.list-li:not(:last-child) {
   padding-bottom: 20px;
 }
 
 .image {
+  margin: 0;
   margin-bottom: 40px;
 }
 
-figure {
+.figure-img {
+  margin: 0;
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
 
+}
+
+.head-h4 {
+  margin: 0;
+  margin-bottom: 10px;
 }
