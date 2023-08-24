@@ -29,7 +29,6 @@ body {
   min-height: 100vh;
   color: #fff;
   background-color: #070217;
-
 }
 
 .logo-link {
@@ -44,7 +43,6 @@ body {
 .link {
   display: inline-block;
   padding: 24px 49px 24px 49px;
-  /*padding: 24px 49px 24px*/
 }
 
 .link:not(:last-child) {
@@ -57,18 +55,14 @@ body {
   width: 1170px;
 }
 
-.paragraf:not(:last-child) {
+.paragraph-text {
   margin: 0;
-  margin-bottom: 40px;
   width: 872px;
 }
 
-.last-paragraf {
-  margin: 0;
+.paragraph-text:not(:last-child) {
   margin-bottom: 40px;
-  width: 872px;
 }
-
 
 .head-h1 {
   margin: 0;
@@ -85,13 +79,12 @@ body {
   margin-bottom: 40px;
 }
 
-.title-article-grey-block .paragraf {
+.title-article-grey-block .paragraph-text {
   width: 692px;
   margin-bottom: 10px;
 }
 
 .head-h2 {
-  /* block-size: inline-block; */
   margin: 0;
   margin-bottom: 10px;
 }
@@ -103,12 +96,11 @@ body {
 
 .list-ul {
   margin: 0;
-  /* padding: 0; */
   padding-left: 15px;
 }
 
 .list-li:not(:last-child) {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .image {
@@ -121,10 +113,5 @@ body {
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
-
 }
 
-.head-h4 {
-  margin: 0;
-  margin-bottom: 10px;
-}
