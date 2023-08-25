@@ -112,10 +112,17 @@ body {
   margin-bottom: 40px;
 }
 
+.image-reset4 {
+  margin: 0;
+}
+
+
 .figure-img {
   margin: 0;
   display: inline-block;
-  margin-bottom: 40px;
   width: 872px;
 }
 
+.figure-img:not(:last-child) {
+  margin-bottom: 40px;
+}
