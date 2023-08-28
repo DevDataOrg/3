@@ -83,7 +83,7 @@ body {
   margin-bottom: 40px;
 }
 
-.title-article-grey-block .paragraph-text {
+.title-article-grey-block .paragraph-text:not(:last-child) {
   width: 692px;
   margin-bottom: 10px;
 }
